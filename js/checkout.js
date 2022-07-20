@@ -11,6 +11,7 @@ if(cookie_value === `purple` || cookie_value === `red` || cookie_value === `blue
 
 function delete_cookies(details){
     Cookies.remove(`choosen_color`);
+    location.href = `checkout.html`;
 }
 let delete_button = document.getElementById(`delete`);
 delete_button.addEventListener(`click`,delete_cookies);
