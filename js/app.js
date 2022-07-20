@@ -1,11 +1,16 @@
 function choose_purple(details){
     Cookies.set(`choosen_color` ,`purple`);
+    location.href = `checkout.html`;
 }
 function choose_red(details){
     Cookies.set(`choosen_color`, `red`);
+    location.href = `checkout.html`;
+
 }
 function choose_blue(details){
     Cookies.set(`choosen_color`, `blue`);
+    location.href = `checkout.html`;
+
 }
 
 let purple_button = document.getElementById(`purple`);
